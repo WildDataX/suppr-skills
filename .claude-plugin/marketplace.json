@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "suppr-api-skills",
+      "name": "suppr-skills",
       "description": "超能文献（Suppr）AI 文档翻译与学术文献检索技能集",
       "version": "1.0.0",
       "source": "./"
