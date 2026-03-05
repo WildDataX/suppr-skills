@@ -4,7 +4,17 @@
 
 ## 安装
 
-将 `suppr-skills` 目录放置在项目的 `.claude/skills/` 下即可：
+在 Claude Code 中执行以下命令：
+
+```bash
+# 从 Marketplace 添加插件源
+/plugin marketplace add WildDataX/suppr-skills
+
+# 安装插件
+/plugin install suppr-skills@WildDataX-suppr-skills
+```
+
+安装完成后，插件会自动放置在 `.claude/skills/suppr-skills/` 目录下：
 
 ```
 .claude/skills/suppr-skills/
