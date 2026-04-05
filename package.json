@@ -1,0 +1,46 @@
+{
+  "name": "suppr-skills",
+  "version": "1.0.0",
+  "description": "超能文献（Suppr）AI 文档翻译与学术文献检索技能集 - Claude Code Skills for document translation and academic literature search powered by Suppr API",
+  "license": "MIT",
+  "author": {
+    "name": "WildData",
+    "email": "IT@wilddata.cn",
+    "url": "https://suppr.wilddata.cn"
+  },
+  "homepage": "https://suppr.wilddata.cn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildDataX/suppr-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WildDataX/suppr-skills/issues"
+  },
+  "keywords": [
+    "suppr",
+    "claude-code",
+    "claude-code-skill",
+    "document-translation",
+    "academic-literature-search",
+    "pubmed",
+    "ai-translation",
+    "scientific-translation",
+    "paper-search",
+    "literature-review",
+    "research-assistant",
+    "academic-research",
+    "pdf-translation",
+    "word-translation",
+    "multilingual-translation",
+    "scholarly-search",
+    "doi-lookup",
+    "impact-factor"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "skills/",
+    ".claude-plugin/"
+  ]
+}
