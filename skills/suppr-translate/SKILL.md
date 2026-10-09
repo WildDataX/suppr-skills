@@ -36,7 +36,7 @@ Authorization: Bearer <your_api_key>
 | file_name | String | 否 | 使用 file_url 时指定文件名 |
 | from_lang | String | 否 | 源语言代码，默认 `auto`（自动检测） |
 | to_lang | String | 是 | 目标语言代码 |
-| optimize_math_formula | Boolean | 否 | 是否优化数学公式（仅 PDF 有效），默认 `false` |
+| optimize_math_formula | Boolean | 否 | 是否优化数学公式（仅 1–50 页的 PDF），默认 `false` |
 
 ### 2. 创建翻译任务（JSON）
 
@@ -99,6 +99,8 @@ Authorization: Bearer <your_api_key>
 最大文件大小：2GB
 
 ## 语言代码
+
+下表为常用语言。新增语言版本部署并启用后，完整目录扩展为 [152 种文档语言](https://github.com/WildDataX/suppr-backend/blob/codex/document-languages/docs/plans/2026-10-09-document-translation-language-catalog.md)；未启用前以服务端实际支持为准。代码按字符串透传，不只限于下表。`auto` 仅作源语言，目标语言必须显式指定且不能与源语言相同。`sr-latn` / `sr-cyrl` 和 `tk-latn` / `tk-cyrl` 分别表示不同文字，不能截断后缀；例如 `bo` 表示藏语。
 
 | 代码 | 语言 |
 |------|------|
